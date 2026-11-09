@@ -61,6 +61,13 @@ status-website:
     - title: Status
       href: /
 
+  scripts:
+    - src: /assets/detail-ranges.js
+      async: true
+  links:
+    - rel: stylesheet
+      href: /assets/detail-ranges.css
+
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 i18n:
