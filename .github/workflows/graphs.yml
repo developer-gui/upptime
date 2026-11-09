@@ -51,8 +51,6 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: "20"
-      - name: Generate Historical Timelines
-        run: node scripts/generate-timeline.js
       - name: Generate graphs
         uses: upptime/uptime-monitor@v1.46.5
         with:

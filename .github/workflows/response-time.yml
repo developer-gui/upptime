@@ -47,8 +47,6 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
-      - name: Apply Configurable Retry Thresholds
-        run: node scripts/patch-monitor.js
       - name: Update response time
         uses: upptime/uptime-monitor@v1.46.5
         with:
