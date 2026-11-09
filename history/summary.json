@@ -59,17 +59,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "rp-website",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "56.29%",
+    "uptimeDay": "56.29%",
+    "uptimeWeek": "56.29%",
+    "uptimeMonth": "56.29%",
+    "uptimeYear": "56.29%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-09": 0
+    }
   },
   {
     "name": "Google",
