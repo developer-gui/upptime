@@ -8,7 +8,9 @@ sites:
   - name: Company Profile
     url: https://gui-group.co.id/
   - name: E Website
-    url: $SECRET_SITE
+    url: $SECRET_SITE_1
+  - name: C Website
+    url: $SECRET_SITE_2
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
