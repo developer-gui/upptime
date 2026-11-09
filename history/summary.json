@@ -41,16 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "e-website",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "52.62%",
+    "uptimeDay": "52.62%",
+    "uptimeWeek": "52.62%",
+    "uptimeMonth": "52.62%",
+    "uptimeYear": "52.62%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-09": 0
+    }
   }
 ]
