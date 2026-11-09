@@ -70,5 +70,11 @@
     "ms": 111,
     "httpCode": 200,
     "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:44:11Z",
+    "ms": 108,
+    "httpCode": 200,
+    "status": "up"
   }
 ]
