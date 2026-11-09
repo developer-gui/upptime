@@ -24,6 +24,13 @@ sites:
       - 200
       - 301
       - 302
+  - name: Rp Website
+    url: $SECRET_SITE_3
+    maxResponseTime: 30000 # Alert if response exceeds 30s
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
   - name: Google
     url: https://www.google.com
     expectedStatusCodes:
