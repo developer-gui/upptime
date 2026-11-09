@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 133,
-    "timeDay": 133,
-    "timeWeek": 133,
-    "timeMonth": 133,
-    "timeYear": 133,
+    "time": 120,
+    "timeDay": 120,
+    "timeWeek": 120,
+    "timeMonth": 120,
+    "timeYear": 120,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 602,
-    "timeDay": 602,
-    "timeWeek": 602,
-    "timeMonth": 602,
-    "timeYear": 602,
+    "time": 608,
+    "timeDay": 608,
+    "timeWeek": 608,
+    "timeMonth": 608,
+    "timeYear": 608,
     "dailyMinutesDown": {}
   },
   {
@@ -40,19 +40,19 @@
     "url": "$SECRET_SITE_1",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "e-website",
-    "status": "down",
-    "uptime": "7.22%",
-    "uptimeDay": "7.22%",
-    "uptimeWeek": "7.22%",
-    "uptimeMonth": "7.22%",
-    "uptimeYear": "7.22%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "4.83%",
+    "uptimeDay": "4.83%",
+    "uptimeWeek": "4.83%",
+    "uptimeMonth": "4.83%",
+    "uptimeYear": "4.83%",
+    "time": 2913,
+    "timeDay": 2913,
+    "timeWeek": 2913,
+    "timeMonth": 2913,
+    "timeYear": 2913,
     "dailyMinutesDown": {
-      "2026-11-09": 2
+      "2026-11-09": 7
     }
   },
   {
@@ -60,19 +60,19 @@
     "url": "$SECRET_SITE_2",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "c-website",
-    "status": "down",
-    "uptime": "56.29%",
-    "uptimeDay": "56.29%",
-    "uptimeWeek": "56.29%",
-    "uptimeMonth": "56.29%",
-    "uptimeYear": "56.29%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "5.89%",
+    "uptimeDay": "5.89%",
+    "uptimeWeek": "5.89%",
+    "uptimeMonth": "5.89%",
+    "uptimeYear": "5.89%",
+    "time": 1951,
+    "timeDay": 1951,
+    "timeWeek": 1951,
+    "timeMonth": 1951,
+    "timeYear": 1951,
     "dailyMinutesDown": {
-      "2026-11-09": 0
+      "2026-11-09": 4
     }
   }
 ]
