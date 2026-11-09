@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0,{}]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.5f21ae45.js"}catch(e){main="/client/legacy/client.7e9fe021.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <title>Uptime Checker</title> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
+<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0,{}]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.7ac905a1.js"}catch(e){main="/client/legacy/client.23791c0b.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <title>Uptime Checker</title> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
       // In this case, light.css will be downloaded with `highest` priority.
       if (typeof window !== "undefined" && typeof document !== "undefined" && "matchMedia" in window && window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
         document.documentElement.style.display = 'none';
@@ -6,7 +6,188 @@
           'beforeend',
           '<link rel="stylesheet" href={`${config.path}/themes/light.css`} onload="document.documentElement.style.display = \'\'">',
         );
-      } </script> <link href=https://uptime.gui-group.co.id/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://uptime.gui-group.co.id/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://uptime.gui-group.co.id/global.css rel=stylesheet><link href=https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg rel=icon type=image/svg><link href=/logo-192.png rel=icon type=image/png><script async defer src=/assets/detail-ranges.js></script><link href=/assets/detail-ranges.css rel=stylesheet> <link href=/client/client.5f21ae45.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.9f0d116d.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.5ce4ce05.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"><div><a href=https://uptime.gui-group.co.id class="svelte-a08hsz logo"><img alt="" class=svelte-a08hsz src=https://raw.githubusercontent.com/developer-gui/upptime/refs/heads/master/logo.webp> <div>Uptime Checker</div></a></div> <ul class=svelte-a08hsz><li><a href=/ class=svelte-a08hsz aria-current=page target=_self>Status</a> </li> </ul></div> </nav> <main class=container> <header class=svelte-ngkazm><h1>Status Website Checker</h1> <p class="svelte-ngkazm lead">This is uptime website checker</header> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <div class="svelte-fqsq6s f changed"><h2>Live Status</h2> <form class="svelte-fqsq6s f r"><div><input class=svelte-fqsq6s id=data_day name=d type=radio value=day><label class=svelte-fqsq6s for=data_day>24h</label></div> <div><input class=svelte-fqsq6s id=data_week name=d type=radio value=week checked><label class=svelte-fqsq6s for=data_week>7d</label></div> <div><input class=svelte-fqsq6s id=data_month name=d type=radio value=month><label class=svelte-fqsq6s for=data_month>30d</label></div> <div><input class=svelte-fqsq6s id=data_year name=d type=radio value=year><label class=svelte-fqsq6s for=data_year>1y</label></div> <div><input class=svelte-fqsq6s id=data_all name=d type=radio value=all><label class=svelte-fqsq6s for=data_all>all</label></div></form></div> <section class="svelte-fqsq6s live-status"><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div></section></main> <footer class=svelte-jbr799><p>Powered by <a href=https://upptime.js.org>Upptime</a></p> </footer></div> <script> try {
+      } </script> <link href=https://uptime.gui-group.co.id/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://uptime.gui-group.co.id/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://uptime.gui-group.co.id/global.css rel=stylesheet><link href=https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg rel=icon type=image/svg><link href=/logo-192.png rel=icon type=image/png><style>.upptime-range-container{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-top:1.5rem;margin-bottom:1.25rem}.upptime-range-heading-group{display:flex;flex-direction:column}.upptime-range-heading{margin:0!important;font-size:1.5rem;font-weight:700;color:inherit}.upptime-range-subtext{font-size:.85rem;opacity:.7;margin-top:2px}.upptime-range-buttons{display:inline-flex;background:rgba(125,125,125,.12);padding:4px;border-radius:9999px;border:1px solid rgba(255,255,255,.1);box-shadow:inset 0 1px 3px rgba(0,0,0,.2)}.upptime-range-btn{background:0 0;border:none;border-radius:9999px;padding:6px 14px;font-size:.85rem;font-weight:600;color:inherit;opacity:.75;cursor:pointer;transition:all .18s cubic-bezier(.4,0,.2,1);min-height:36px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;outline:0;user-select:none}.upptime-range-btn:hover{opacity:1;background:rgba(255,255,255,.08)}.upptime-range-btn:focus-visible{box-shadow:0 0 0 2px #1abc9c}.upptime-range-btn.active{background:#1abc9c!important;color:#0b1a16!important;opacity:1!important;font-weight:700;box-shadow:0 2px 8px rgba(26,188,156,.35)}@media (max-width:640px){.upptime-range-container{flex-direction:column;align-items:flex-start}.upptime-range-buttons{width:100%;justify-content:space-between;overflow-x:auto}.upptime-range-btn{padding:6px 10px;font-size:.8rem;flex:1;text-align:center}}</style><script>(function () {
+  "use strict";
+  const RANGES = [
+    { key: "7d", label: "7d", days: 7, title: "7-day response time" },
+    { key: "14d", label: "14d", days: 14, title: "14-day response time" },
+    { key: "30d", label: "30d", days: 30, title: "30-day response time" },
+    { key: "60d", label: "60d", days: 60, title: "60-day response time" },
+    { key: "180d", label: "180d", days: 180, title: "180-day response time" },
+    { key: "all", label: "All", days: null, title: "All-time response time" }
+  ];
+  let allPoints = [];
+  let activeRangeKey = "7d";
+  let isInitializing = false;
+
+  function getSlugFromPath() {
+    const match = window.location.pathname.match(/\/history\/([a-zA-Z0-9_\-]+)/);
+    return match ? match[1] : null;
+  }
+
+  function findChartInstance(canvas) {
+    if (!canvas) return null;
+    if (window.Chart && typeof window.Chart.getChart === "function") {
+      const c = window.Chart.getChart(canvas);
+      if (c) return c;
+    }
+    if (window.Chart && window.Chart.instances) {
+      for (const k in window.Chart.instances) {
+        const inst = window.Chart.instances[k];
+        if (inst && (inst.canvas === canvas || inst.ctx?.canvas === canvas)) return inst;
+      }
+    }
+    for (const p in canvas) {
+      if (p.startsWith("__chart") || p === "_chart" || p === "$chartjs" || p === "chart") {
+        if (canvas[p] && typeof canvas[p].update === "function") return canvas[p];
+      }
+    }
+    return null;
+  }
+
+  async function fetchTimeline(slug) {
+    const candidateUrls = [
+      "/api/" + slug + "/history-timeline.json",
+      "https://raw.githubusercontent.com/developer-gui/upptime/master/api/" + slug + "/history-timeline.json"
+    ];
+    for (const u of candidateUrls) {
+      try {
+        const r = await fetch(u);
+        if (r.ok) {
+          const d = await r.json();
+          if (Array.isArray(d) && d.length > 0) return d;
+        }
+      } catch (e) {}
+    }
+    return null;
+  }
+
+  function updateAverageMetric(avgMs) {
+    const headings = document.querySelectorAll("h3, h4, h5, p, span, div");
+    for (const el of headings) {
+      if (el.textContent && el.textContent.trim().toLowerCase() === "average response") {
+        const parent = el.closest("div") || el.parentElement;
+        if (parent) {
+          const textEl = parent.querySelector("p, span, h2, h3, div:not(:first-child)");
+          if (textEl && textEl !== el) {
+            textEl.textContent = avgMs + "ms";
+            return;
+          }
+        }
+      }
+    }
+  }
+
+  function applyRange(rangeKey) {
+    activeRangeKey = rangeKey;
+    const range = RANGES.find((r) => r.key === rangeKey) || RANGES[0];
+    document.querySelectorAll(".upptime-range-btn").forEach((btn) => {
+      const isActive = btn.dataset.range === rangeKey;
+      btn.classList.toggle("active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+
+    const cutoff = range.days ? Date.now() - range.days * 86400000 : 0;
+    const filtered = allPoints.filter((p) => new Date(p.time).getTime() >= cutoff);
+    const avg = filtered.length > 0 ? Math.round(filtered.reduce((sum, p) => sum + p.ms, 0) / filtered.length) : 0;
+
+    const headingEl = document.querySelector(".upptime-range-heading");
+    if (headingEl) headingEl.textContent = range.title;
+
+    const subtextEl = document.querySelector(".upptime-range-subtext");
+    if (subtextEl) subtextEl.textContent = filtered.length + " checks recorded • Avg: " + avg + "ms";
+
+    updateAverageMetric(avg);
+
+    const canvas = document.querySelector("section canvas");
+    const chart = findChartInstance(canvas);
+    if (chart && chart.data) {
+      chart.data.labels = filtered.map((p) => new Date(p.time).toLocaleString());
+      if (chart.data.datasets && chart.data.datasets[0]) {
+        chart.data.datasets[0].data = filtered.map((p) => p.ms);
+      }
+      chart.update();
+    }
+  }
+
+  async function initDetailRange() {
+    const slug = getSlugFromPath();
+    if (!slug) return;
+    if (document.querySelector(".upptime-range-container")) return;
+
+    const canvas = document.querySelector("section canvas");
+    if (!canvas) return;
+    const section = canvas.closest("section");
+    if (!section) return;
+    const existingHeading = section.querySelector("h2");
+    if (!existingHeading) return;
+
+    if (isInitializing) return;
+    isInitializing = true;
+
+    let points = await fetchTimeline(slug);
+    if (!points || points.length === 0) {
+      const chart = findChartInstance(canvas);
+      if (chart && chart.data && chart.data.datasets && chart.data.datasets[0]) {
+        const labels = chart.data.labels || [];
+        const data = chart.data.datasets[0].data || [];
+        points = labels.map((l, idx) => ({ time: new Date(l).toISOString() || new Date().toISOString(), ms: data[idx] || 0 }));
+      }
+    }
+    allPoints = points || [];
+
+    const container = document.createElement("div");
+    container.className = "upptime-range-container";
+
+    const headingGroup = document.createElement("div");
+    headingGroup.className = "upptime-range-heading-group";
+
+    const heading = document.createElement("h2");
+    heading.className = "upptime-range-heading";
+    heading.textContent = "7-day response time";
+
+    const subtext = document.createElement("span");
+    subtext.className = "upptime-range-subtext";
+    subtext.textContent = allPoints.length + " checks recorded";
+
+    headingGroup.appendChild(heading);
+    headingGroup.appendChild(subtext);
+
+    const buttonGroup = document.createElement("div");
+    buttonGroup.className = "upptime-range-buttons";
+    buttonGroup.setAttribute("role", "group");
+    buttonGroup.setAttribute("aria-label", "Time range filter");
+
+    RANGES.forEach((range) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "upptime-range-btn" + (range.key === activeRangeKey ? " active" : "");
+      btn.dataset.range = range.key;
+      btn.textContent = range.label;
+      btn.setAttribute("aria-pressed", range.key === activeRangeKey ? "true" : "false");
+      btn.addEventListener("click", () => applyRange(range.key));
+      buttonGroup.appendChild(btn);
+    });
+
+    container.appendChild(headingGroup);
+    container.appendChild(buttonGroup);
+    existingHeading.replaceWith(container);
+
+    applyRange(activeRangeKey);
+    isInitializing = false;
+  }
+
+  const observer = new MutationObserver(() => {
+    if (getSlugFromPath()) initDetailRange();
+  });
+  observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initDetailRange);
+  } else {
+    initDetailRange();
+  }
+})(); </script> <link href=/client/client.7ac905a1.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.24f5c927.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.51cae4ad.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"><div><a href=https://uptime.gui-group.co.id class="svelte-a08hsz logo"><img alt="" class=svelte-a08hsz src=https://raw.githubusercontent.com/developer-gui/upptime/refs/heads/master/logo.webp> <div>Uptime Checker</div></a></div> <ul class=svelte-a08hsz><li><a href=/ class=svelte-a08hsz aria-current=page target=_self>Status</a> </li> </ul></div> </nav> <main class=container> <header class=svelte-ngkazm><h1>Status Website Checker</h1> <p class="svelte-ngkazm lead">This is uptime website checker</header> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <div class="svelte-fqsq6s f changed"><h2>Live Status</h2> <form class="svelte-fqsq6s f r"><div><input class=svelte-fqsq6s id=data_day name=d type=radio value=day><label class=svelte-fqsq6s for=data_day>24h</label></div> <div><input class=svelte-fqsq6s id=data_week name=d type=radio value=week checked><label class=svelte-fqsq6s for=data_week>7d</label></div> <div><input class=svelte-fqsq6s id=data_month name=d type=radio value=month><label class=svelte-fqsq6s for=data_month>30d</label></div> <div><input class=svelte-fqsq6s id=data_year name=d type=radio value=year><label class=svelte-fqsq6s for=data_year>1y</label></div> <div><input class=svelte-fqsq6s id=data_all name=d type=radio value=all><label class=svelte-fqsq6s for=data_all>all</label></div></form></div> <section class="svelte-fqsq6s live-status"><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div></section></main> <footer class=svelte-jbr799><p>Powered by <a href=https://upptime.js.org>Upptime</a></p> </footer></div> <script> try {
         if (typeof window !== "undefined" && window.navigator && navigator.serviceWorker) {
           navigator.serviceWorker.getRegistrations().then(function (registrations) {
             for (let registration of registrations) {
