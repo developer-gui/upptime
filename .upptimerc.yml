@@ -17,7 +17,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.gui-group.co.id
   baseUrl: /
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/developer-gui/upptime/refs/heads/master/logo.webp
   name: Uptime Checker
   introTitle: "Status Website Checker"
   introMessage: This is uptime website checker
