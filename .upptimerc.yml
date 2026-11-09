@@ -5,6 +5,8 @@ repo: upptime # The name of this repository
 sites:
   - name: Company Profile
     url: https://gui-group.co.id/
+    retries: 2 # Replicate Uptime Kuma retry threshold: retry 2 times before recording DOWN / alerting
+    retryDelay: 5000 # Wait 5000ms between attempts
     maxResponseTime: 30000 # Alert if response exceeds 30s
     expectedStatusCodes:
       - 200
@@ -12,6 +14,8 @@ sites:
       - 302
   - name: E Website
     url: $SECRET_SITE_1
+    retries: 2
+    retryDelay: 5000
     maxResponseTime: 30000 # Alert if response exceeds 30s
     expectedStatusCodes:
       - 200
@@ -19,6 +23,8 @@ sites:
       - 302
   - name: C Website
     url: $SECRET_SITE_2
+    retries: 5
+    retryDelay: 5000
     maxResponseTime: 30000 # Alert if response exceeds 30s
     expectedStatusCodes:
       - 200
@@ -26,6 +32,8 @@ sites:
       - 302
   - name: Rp Website
     url: $SECRET_SITE_3
+    retries: 5
+    retryDelay: 5000
     maxResponseTime: 30000 # Alert if response exceeds 30s
     expectedStatusCodes:
       - 200
@@ -33,6 +41,7 @@ sites:
       - 302
   - name: Google
     url: https://www.google.com
+    # No retries configured: fails immediately on first attempt (per-site strict threshold)
     expectedStatusCodes:
       - 200
       - 301
