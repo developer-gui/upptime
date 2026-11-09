@@ -5,12 +5,31 @@ repo: upptime # The name of this repository
 sites:
   - name: Company Profile
     url: https://gui-group.co.id/
+    maxResponseTime: 30000 # Alert if response exceeds 30s
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
   - name: E Website
     url: $SECRET_SITE_1
+    maxResponseTime: 30000 # Alert if response exceeds 30s
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
   - name: C Website
     url: $SECRET_SITE_2
+    maxResponseTime: 30000 # Alert if response exceeds 30s
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
   - name: Google
     url: https://www.google.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
