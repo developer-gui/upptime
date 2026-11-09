@@ -17,7 +17,7 @@
 name: Update Template CI
 on:
   schedule:
-#   - cron: "0 0 * * *"
+    - cron: "0 0 * * *"
   repository_dispatch:
     types: [update_template]
   workflow_dispatch:
@@ -26,7 +26,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   release:
-    if: false # Disabled to preserve custom workflow patches
     name: Build
     runs-on: ubuntu-latest
     env:
