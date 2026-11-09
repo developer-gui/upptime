@@ -97,15 +97,6 @@ function generateTimelineForSlug(slug, cwd = path.resolve(__dirname, "..")) {
     const apiOutputFile = path.join(apiTargetDir, "history-timeline.json");
     fs.writeFileSync(apiOutputFile, JSON.stringify(points, null, 2), "utf8");
 
-    // Also write to assets/api/{slug}/history-timeline.json so Upptime's
-    // site generator automatically bundles it to the GitHub Pages export root
-    const assetsTargetDir = path.join(cwd, "assets", "api", slug);
-    if (!fs.existsSync(assetsTargetDir)) {
-      fs.mkdirSync(assetsTargetDir, { recursive: true });
-    }
-    const assetsOutputFile = path.join(assetsTargetDir, "history-timeline.json");
-    fs.writeFileSync(assetsOutputFile, JSON.stringify(points, null, 2), "utf8");
-
     console.log(`[OK] Generated timeline for ${slug} (${points.length} data points)`);
 
     return points;

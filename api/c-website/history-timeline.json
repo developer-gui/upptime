@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "time": "2026-11-09T07:12:36Z",
+    "ms": 0,
+    "httpCode": 200,
+    "status": "down"
+  },
+  {
+    "time": "2026-11-09T07:16:57Z",
+    "ms": 1951,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:28:46Z",
+    "ms": 1716,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:32:41Z",
+    "ms": 2126,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:41:05Z",
+    "ms": 2241,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:42:14Z",
+    "ms": 1713,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:44:41Z",
+    "ms": 1705,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:47:20Z",
+    "ms": 2020,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T07:48:31Z",
+    "ms": 1800,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:17:36Z",
+    "ms": 2091,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:20:45Z",
+    "ms": 1930,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:44:08Z",
+    "ms": 2044,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:51:32Z",
+    "ms": 1746,
+    "httpCode": 200,
+    "status": "up"
+  }
+]
