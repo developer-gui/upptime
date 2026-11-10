@@ -17,7 +17,8 @@
 name: Response Time CI
 on:
   schedule:
-    - cron: "0 23 * * *"
+    # Run every 3 hours at minute 15 (e.g. 00:15, 03:15, 06:15...) to dodge GitHub Actions peak-minute queues
+    - cron: "15 */3 * * *"
   repository_dispatch:
     types: [response_time]
   workflow_dispatch:

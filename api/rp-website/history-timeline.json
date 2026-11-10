@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "time": "2026-11-09T07:48:43Z",
+    "ms": 0,
+    "httpCode": 200,
+    "status": "down"
+  },
+  {
+    "time": "2026-11-09T08:19:16Z",
+    "ms": 3747,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:20:48Z",
+    "ms": 3399,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:44:11Z",
+    "ms": 3169,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:51:35Z",
+    "ms": 3158,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-09T08:58:05Z",
+    "ms": 3505,
+    "httpCode": 200,
+    "status": "up"
+  },
+  {
+    "time": "2026-11-10T01:22:35Z",
+    "ms": 3653,
+    "httpCode": 200,
+    "status": "up"
+  }
+]

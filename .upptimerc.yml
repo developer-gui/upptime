@@ -2,6 +2,10 @@
 owner: developer-gui # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
+# Run response time measurement every 3 hours (offset by 15 mins to avoid peak GitHub queue delay)
+workflowSchedule:
+  responseTime: "15 */3 * * *"
+
 sites:
   - name: Company Profile
     url: https://gui-group.co.id/
