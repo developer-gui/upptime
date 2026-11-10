@@ -34,7 +34,7 @@ jobs:
   release:
     name: Build and deploy site
     runs-on: ubuntu-latest
-    if: "github.event_name == 'workflow_run' ? github.event.workflow_run.conclusion == 'success' : !contains(github.event.head_commit.message, '[skip ci]')"
+    if: (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || (github.event_name != 'workflow_run' && !contains(github.event.head_commit.message, '[skip ci]'))
     env:
       GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
     steps:
